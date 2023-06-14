@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="C:\kut\ind.css">
+  </head>
+  <body>
+    <header class="header">
+      <div CLASS="head">
+        <h1 class="title"><a href="C:\kut\index.html">KYPI</a></h1>
+        <div class="btn-group">
+          <img src="C:\kut\image\2.png">
+          <button class="cart1" id="cart1">
+            <div class="cart__num1" id="cart_num1"> ВХОД</div>
+          </button>
+
+          <button class="cart" id="cart">
+            <div class="cart__num" id="cart_num"> КОРЗИНА</div>
+          </button>
+
+        </div>
+      </div>
+    </header>
+    <div class="form_auth_block">
+      <div class="form_auth_block_content">
+        <div class="login">
+          <form name='form-login'>
+
+            <h1>SIGN IN</h1>
+
+            <label for="userName">Email</label>
+            <input type="email" id="userName" placeholder="Email"
+              required>
+
+            <label for="userPw">Password</label>
+            <input type="password" id="userPw"
+              placeholder="Password" required>
+
+            <div id="remember">
+              <input type="checkbox" value="lsRememberMe"
+                id="rememberMe" style="display: inline-block;">
+              <label>Remember me</label>
+            </div>
+
+            <input id="login_btn" type="submit" value="Login"
+              onclick="check()">
+            <button class="form_auth_block__close"
+              id="form_auth_block_close">&#10006;</button>
+          </form>
+          <button class="cart2 zxc" id="cart2">
+            <div class="cart__num2" id="cart_num2"> Register</div>
+          </button>
+          <button class="zxc" onclick="check3()">
+            logout
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="form_reg_block">
+      <div class="form_reg_block_content">
+        <div class="login">
+          <form name='form-login'>
+
+            <h1>REGISTER</h1>
+
+            <label for="name">Email</label>
+            <input type="email" id="name" placeholder="Username"
+              required>
+
+            <label for="pw">Password</label>
+            <input type="password" id="pw" placeholder="Password"
+              required>
+
+            <ul class="helper-text">
+              <li class="length">Must be at least 8 characters
+                long.</li>
+              <li class="lowercase">Must contain a lowercase
+                letter.</li>
+              <li class="uppercase">Must contain an uppercase
+                letter.</li>
+              <li class="special">Must contain a number or special
+                character.</li>
+            </ul>
+            <input id="rgstr_btn" type="submit" value="Register"
+              onclick="store()">
+            <button class="form_reg_block__close"
+              id="form_reg_block_close">&#10006;</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="wraper">
+      <div class="page">
+        <div class="block-group">
+          <div class="block">
+            <div class="h1-wrap">
+
+              <div class="h1">
+                <span>КАТАЛОГ</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="cards">
+            <div class="card">
+              <!-- Верхняя часть -->
+              <div class="card__top">
+                <!-- Изображение-ссылка товара -->
+                <a href="#" class="card__image">
+                  <img
+                    src="C:\kut\image\аксессуары_кальян.png"
+                    alt="Колба KITE Classic Индиго h=27 см" />
+                </a>
+                <!-- Скидка на товар -->
+                <div class="card__label">-10%</div>
+              </div>
+              <!-- Нижняя часть -->
+              <div class="card__bottom">
+                <!-- Цены на товар (с учетом скидки и без)-->
+                <div class="card__prices">
+                  <div class="card__price card__price--discount">840</div>
+                  <div class="card__price card__price--common">970</div>
+                </div>
+                <!-- Ссылка-название товара -->
+                <a href="#" class="card__title">
+                  Колба KITE Classic Индиго h=27 см
+                </a>
+                <!-- Кнопка добавить в корзину -->
+                <button class="card__add">В корзину</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <!-- Верхняя часть -->
+              <div class="card__top">
+                <!-- Изображение-ссылка товара -->
+                <a href="#" class="card__image">
+                  <img
+                    src="C:\kut\image\аксессуары_кальян2.png"
+                    alt="Адаптер для чаши серебрянный (сетка)" />
+                </a>
+                <!-- Скидка на товар -->
+                <div class="card__label">-10%</div>
+              </div>
+              <!-- Нижняя часть -->
+              <div class="card__bottom">
+                <!-- Цены на товар (с учетом скидки и без)-->
+                <div class="card__prices">
+                  <div class="card__price card__price--discount">310</div>
+                  <div class="card__price card__price--common">399</div>
+                </div>
+                <!-- Ссылка-название товара -->
+                <a href="#" class="card__title">
+                  Адаптер для чаши серебрянный (сетка)
+                </a>
+                <!-- Кнопка добавить в корзину -->
+                <button class="card__add">В корзину</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <!-- Верхняя часть -->
+              <div class="card__top">
+                <!-- Изображение-ссылка товара -->
+                <a href="#" class="card__image">
+                  <img
+                    src="C:\kut\image\аксессуары_кальян3.png"
+                    alt="Ерш для Колбы кальяна В 270 (широкий)" />
+                </a>
+                <!-- Скидка на товар -->
+                <div class="card__label">-10%</div>
+              </div>
+              <!-- Нижняя часть -->
+              <div class="card__bottom">
+                <!-- Цены на товар (с учетом скидки и без)-->
+                <div class="card__prices">
+                  <div class="card__price card__price--discount">190</div>
+                  <div class="card__price card__price--common">250</div>
+                </div>
+                <!-- Ссылка-название товара -->
+                <a href="#" class="card__title">
+                  Ерш для Колбы кальяна В 270 (широкий)
+                </a>
+                <!-- Кнопка добавить в корзину -->
+                <button class="card__add">В корзину</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <!-- Верхняя часть -->
+              <div class="card__top">
+                <!-- Изображение-ссылка товара -->
+                <a href="#" class="card__image">
+                  <img
+                    src="C:\kut\image\аксессуары_кальян4.png" />
+                </a>
+                <!-- Скидка на товар -->
+                <div class="card__label">-10%</div>
+              </div>
+              <!-- Нижняя часть -->
+              <div class="card__bottom">
+                <!-- Цены на товар (с учетом скидки и без)-->
+                <div class="card__prices">
+                  <div class="card__price card__price--discount">490</div>
+                  <div class="card__price card__price--common">570</div>
+                </div>
+                <!-- Ссылка-название товара -->
+                <a href="#" class="card__title">
+                  Щипцы Brusko Click 2
+                </a>
+                <!-- Кнопка добавить в корзину -->
+                <button class="card__add">В корзину</button>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <div class="popup">
+      <div class="popup__container" id="popup_container">
+        <div class="popup__item">
+          <h1 class="popup__title">Оформление заказа</h1>
+        </div>
+        <div class="popup__item" id="popup_product_list">
+          <div class="popup__product">
+            <div class="popup__product-wrap">
+              <img
+                src="./images/iphone-14-pro-max-gold.png"
+                alt="Apple IPhone 14 Pro Max 256Gb"
+                class="popup__product-image" />
+              <h2 class="popup__product-title">
+                Смартфон Apple IPhone 14 Pro Max 256Gb, золотой
+              </h2>
+            </div>
+            <div class="popup__product-wrap">
+              <div class="popup__product-price">135000</div>
+              <button class="popup__product-delete">&#10006;</button>
+            </div>
+          </div>
+        </div>
+        <div class="popup__item">
+          <button class="zac" onclick="check2()">оформить заказ</button>
+          <div class="popup__cost">
+            <h2 class="popup__cost-title">Итого</h2>
+            <output class="popup__cost-value" id="popup_cost">0</output>
+          </div>
+          <div class="popup__cost">
+            <h2 class="popup__cost-title">Скидка</h2>
+            <output class="popup__cost-value" id="popup_discount">0</output>
+          </div>
+          <div class="popup__cost">
+            <h2 class="popup__cost-title">Итого со скидкой</h2>
+            <output class="popup__cost-value" id="popup_cost_discount">0</output>
+          </div>
+        </div>
+        <button class="popup__close" id="popup_close">&#10006;</button>
+      </div>
+    </div>
+    <script src="C:\kut\scripts\main.js"></script>
+
+    <footer class="foot">
+      <div class="page">
+        <div class="block-group">
+
+          <div class="block foot-1">
+            <ul class="bottom-nav">
+
+              <li>
+                <a href="C:\kut\index.html" class="bottom-nav-link"
+                  title="Главная">Главная</a>
+              </li>
+              <li>
+                <a href="C:\kut\footer\rules.html"
+                  class="bottom-nav-link"
+                  title="Правила работы сайта">Правила работы
+                  сайта</a>
+              </li>
+              <li>
+                <a href="C:\kut\footer\about.html"
+                  class="bottom-nav-link"
+                  title="О компании">О компании</a>
+              </li>
+
+              <li>
+                <a href="C:\kut\footer\payment.html"
+                  class="bottom-nav-link"
+                  title="Оплата">Оплата</a>
+              </li>
+              <li>
+                <a href="C:\kut\footer\informations.html"
+                  class="bottom-nav-link"
+                  title="Полезная информация">Полезная
+                  информация</a>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="block foot-2">
+
+            <div class="foot-address">
+              <span>Юридический адрес:</span>
+              630058, г. Новосибирск, Советский район, микрорайон Шлюз, Русская
+              улица, 35/1
+            </div>
+            <div class="foot-address">
+              <span>Телефон:</span>
+
+              <a href="tel:89044585824" class="pink">8 904 458 58 24</a><br>
+              <a href="tel:89069265265" class="pink">8 906 926 52 65</a><br>
+              <a href="tel:89231080047" class="pink">8 923 108 00 47</a>
+            </div>
+
+            <div class="foot-address">
+              <span>Электронный адрес:</span>
+              <a href="mailto:TyryshkinaAA@mer.ci.nsu.ru">TyryshkinaAA@mer.ci.nsu.ru</a><br>
+              <a href="mailto:Yurkovna@mer.ci.nsu.ru">Yurkovna@mer.ci.nsu.ru</a><br>
+              <a href="mailto:Karikovks@mer.ci.nsu.ru">Karikovks@mer.ci.nsu.ru</a>
+            </div> </div>
+
+          <div class="block">
+
+          </div>
+        </div>
+      </div>
+      <p class="copyright">© 2023 «KYPI» магазин табачных изделий. <a href
+          class="pink">Разработка сайта</a> - KYPIman.</p>
+
+    </footer>
